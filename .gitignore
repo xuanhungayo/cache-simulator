@@ -1,0 +1,7 @@
+# Netbean 
+build/
+dist/
+nbproject/private/
+
+# Mac
+.DS_Store
