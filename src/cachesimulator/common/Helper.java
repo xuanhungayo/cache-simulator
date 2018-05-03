@@ -22,7 +22,7 @@ public class Helper {
 	private static long totalSize = 0;
 	
 	public static void loadData() {
-		System.out.println("Loading helper data...");
+		System.out.println("Loading data...");
 		loadObjectSize();
 		loadNumOfExplicitLink();
 	}

@@ -6,12 +6,12 @@ package cachesimulator.common;
  */
 public class Config {
 	// Cache tuning
-	public static String POLICY = "FSA";
+	public static String[] POLICIES = {"LRU", "LFU", "SA", "FSA"};
 	public static int SAMPLE_SIZE = 20;
 	public static long[] CACHE_PORTIONS = {2, 4, 6, 8, 10, 12}; 
 	public static int LIMIT_BFS_DEPTH = 3;
 		// SA
-	public static long PIVOT_ALPHA = 1; 
+	public static long PIVOT_ALPHA = 2; 
 		// FSA
 	public static long LIMIT_PIVOT = 5;
 	public static String[] FIXED_PIVOTS = {

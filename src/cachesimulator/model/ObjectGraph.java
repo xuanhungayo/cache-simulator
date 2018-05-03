@@ -1,6 +1,5 @@
 package cachesimulator.model;
 
-import cachesimulator.cache.SACache;
 import cachesimulator.common.Config;
 import cachesimulator.common.Helper;
 import cachesimulator.common.Reader;
